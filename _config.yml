@@ -13,6 +13,7 @@ theme: moving
 plugins:
   - jekyll-feed
 
+permalink: /:title/
 timezone: Asia/Seoul
 
 google_analytics: 'UA-156427940-1' # leave it blank if not wish
