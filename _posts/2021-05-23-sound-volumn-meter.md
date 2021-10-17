@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 간단한 소리 크기 측정기 만들기
-subtitle: STM32F1 와 MAX4466 로 만드는 간단한 소리 크기 측정기
+subtitle: STM32F1 와 MAX4466 를 사용해 간단한 데시벨 측정기를 만들어보았습니다.
 date: 2021-05-23 15:28:00 +0900
 categories: [Sensor]
 tags: [FFT]
@@ -9,7 +9,8 @@ tags: [FFT]
 
 코드는 [https://github.com/onkwon/sound-level-meter](https://github.com/onkwon/sound-level-meter) 에서 다운로드 받을 수 있습니다.
 
-[FFT 추가](https://github.com/onkwon/sound-level-meter/blob/master/fft.md).
+[FFT](https://github.com/onkwon/sound-level-meter/blob/master/fft.md) 관련
+내용을 추가했습니다.
 
 ## 사용한 모듈
 * 마이크: MAX4466
