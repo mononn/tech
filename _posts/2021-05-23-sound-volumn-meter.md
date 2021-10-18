@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 간단한 소리 크기 측정기 만들기
-subtitle: STM32F1 와 MAX4466 를 사용해 간단한 데시벨 측정기를 만들어보았습니다.
+subtitle: STM32F1 와 MAX4466 를 사용해 간단한 데시벨 측정기를 만듭니다.
 date: 2021-05-23 15:28:00 +0900
 categories: [Sensor]
 tags: [FFT]
