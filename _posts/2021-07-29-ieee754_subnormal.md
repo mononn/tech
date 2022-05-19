@@ -1,13 +1,14 @@
 ---
 layout: post
 title: IEEE 754 부동소수점 표현 방식
-subtitle: "CBOR 라이브러리를 작성하면서 single-precision 과 half-precision 을
-  서로 변환할 필요가 있었습니다. 구현하면서 고려하지 못했었던 subnormal 에 대해
-  정리합니다."
+subtitle: "subnormal 에 대해 정리합니다."
 date: 2021-07-29 23:10:00 +0900
 categories: [Binary Representation]
 tags: [ieee754, 부동소수점]
 ---
+
+CBOR 라이브러리를 작성하면서 single-precision 과 half-precision 을 서로 변환할
+필요가 있었습니다. 구현하면서 고려하지 못했었던 subnormal 에 대해 정리합니다.
 
 [CBOR 라이브러리](https://github.com/onkwon/cbor)에 사용된 실제 코드는
 [https://github.com/onkwon/cbor/blob/main/src/ieee754.c](https://github.com/onkwon/cbor/blob/main/src/ieee754.c)

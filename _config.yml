@@ -9,7 +9,7 @@ favicon:
 show_excerpts: false
 
 # Build settings
-theme: moving
+remote_theme: huangyz0918/moving
 plugins:
   - jekyll-feed
 
