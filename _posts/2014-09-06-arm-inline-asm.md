@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "ARM GCC Inline Assembly"
-subtitle: "다음 링크의 내용을 요약합니다: http://www.ethernut.de/en/documents/arm-inline-asm.html"
+subtitle: "GCC 에서 ARM 프로세서 어셈블리를 인라인으로 사용하는 방법을 설명합니다."
 date: 2014-09-06 11:25:22 +0900
 ---
+
+다음 링크의 내용을 요약합니다: [http://www.ethernut.de/en/documents/arm-inline-asm.html](http://www.ethernut.de/en/documents/arm-inline-asm.html)
 
 ```
 asm(code : output operand list : input operand list : clobber list);
